@@ -2,6 +2,7 @@ CREATE OR REPLACE PACKAGE PKG_MANT_ID_NAVEGACION
 AS
   
  --Proyecto (Innobyte): Simulador de Ofertas (Universidad Santo Tomas)
+ --Creado por MEB
     PROCEDURE P1_INSERTAR_PER_USU (iRut in ta_sim_per_persona.per_rut%TYPE, iNombre in  ta_sim_per_persona.per_nombre%TYPE,iemail in  ta_sim_per_persona.per_email%TYPE,
                                     Ok out Number,oErr out Number,oMsg out varchar2 );
     PROCEDURE P2_LISTAR_PER_USU_ROL;
